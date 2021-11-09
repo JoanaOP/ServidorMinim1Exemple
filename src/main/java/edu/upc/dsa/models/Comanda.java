@@ -18,6 +18,7 @@ public class Comanda {
     public Comanda(){};
 
     public Comanda(String usuariID, List<ElementComanda> llistaCompra) { // Constructor
+        this();
         this.setUsuariID(usuariID);
         this.setLlistaCompra(llistaCompra);
     }
